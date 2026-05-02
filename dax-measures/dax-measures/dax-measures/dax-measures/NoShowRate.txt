@@ -1,1 +1,11 @@
 
+No-Show Rate =
+VAR NoShows =
+    CALCULATE (
+        COUNTROWS ( FactEncounter ),
+        FactEncounter[EncounterStatus] = "NoShow"
+    )
+VAR AllEncounters =
+    [Total Encounters]
+RETURN
+DIVIDE ( NoShows, AllEncounters )

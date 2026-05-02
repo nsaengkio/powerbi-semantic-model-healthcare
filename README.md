@@ -1,2 +1,11 @@
-# powerbi-semantic-model-healthcare
-A synthetic Power BI semantic model demonstrating star schema design, DAX measures, and healthcare KPIs.
+powerbi-semantic-model-healthcare/
+│
+├── README.md
+├── model-diagram.md
+├── dax-measures/
+│   ├── Encounters.txt
+│   ├── ReadmissionRate.txt
+│   ├── AvgLOS.txt
+│   └── NoShowRate.txt
+└── data/
+    └── sample-data.csv

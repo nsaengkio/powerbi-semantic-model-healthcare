@@ -1,1 +1,11 @@
 
+Readmission Rate =
+VAR Readmissions =
+    CALCULATE (
+        COUNTROWS ( FactEncounter ),
+        FactEncounter[EncounterType] = "Readmission"
+    )
+VAR AllEncounters =
+    [Total Encounters]
+RETURN
+DIVIDE ( Readmissions, AllEncounters )

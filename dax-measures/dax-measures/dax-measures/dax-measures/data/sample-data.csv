@@ -1,1 +1,12 @@
 
+EncounterID,PatientID,ProviderID,DepartmentID,EncounterDateKey,LengthOfStay,EncounterType,EncounterStatus,VisitCost
+1,101,501,301,20240101,3,Inpatient,Completed,5400
+2,102,502,302,20240102,1,Outpatient,Completed,850
+3,103,503,301,20240102,0,Clinic,NoShow,0
+4,104,501,303,20240103,2,Inpatient,Completed,4100
+5,105,504,304,20240103,0,Clinic,Completed,200
+6,106,505,302,20240104,1,Outpatient,Completed,900
+7,107,503,301,20240104,0,Clinic,Readmission,600
+8,108,506,305,20240105,4,Inpatient,Completed,7200
+9,109,502,302,20240105,0,Clinic,NoShow,0
+10,110,504,304,20240106,2,Inpatient,Completed,3800

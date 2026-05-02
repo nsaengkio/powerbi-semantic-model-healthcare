@@ -1,1 +1,3 @@
 
+Total Encounters =
+COUNTROWS ( FactEncounter )

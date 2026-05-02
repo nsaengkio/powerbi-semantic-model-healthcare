@@ -1,1 +1,6 @@
 
+Average LOS =
+AVERAGEX (
+    FactEncounter,
+    FactEncounter[LengthOfStay]
+)
